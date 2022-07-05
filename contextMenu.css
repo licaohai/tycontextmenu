@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#TYF_contextmenu {position: absolute;z-index:9996;}
+#TYF_contextmenu .cm_default {background:#ccc;margin: 0;padding: 3px 0;list-style:none;cursor: pointer;box-sizing: border-box;min-width:88px;font-size:14px;border:1px solid #ccc;}
+#TYF_contextmenu a {display: block;text-decoration: none;}
+#TYF_contextmenu a.disabled {cursor: not-allowed;color: gray;}
+#TYF_contextmenu .cm_default li {padding-left:5px;position: relative;}
+#TYF_contextmenu .cm_default>li:not(:last-child) {border-bottom:1px solid #ccc;}
+#TYF_contextmenu .cm_default li img {width:16px;height:16px;display: inline-block;vertical-align: middle;margin-right:2px;}
+#TYF_contextmenu .cm_radius {border-radius:5px;}
+#TYF_contextmenu .cm_shadow {box-shadow:darkgrey 0 0 10px 0;}
+#TYF_contextmenu li .cm_icon {padding-left:18px;}
+#TYF_contextmenu .cm_default li s {width:6px;height:6px;border:1px solid #888;border-left-width:0;border-bottom-width:0;display:block;position:absolute;right:8px;transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);}
+#TYF_contextmenu .cm_sub {position: absolute;top:0px;z-index:9997;display:none;}
